@@ -1,0 +1,157 @@
+body {
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    color: #000000; 
+    margin: 20px 0; 
+    text-align: center; 
+}
+
+.top-section {
+    height: 300px;
+    background-color: #C7DDEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.top-section h1 {
+    margin: 0 0 0 250px; 
+    padding-top: 60px; 
+}
+
+.top-section img {
+    margin: 0 0 0 100px; 
+    padding-top: 60px; 
+}
+
+.nav-items {
+    list-style-type: none;
+    text-align: center;
+    color: #A9A19E;
+}
+
+li {
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 50px 100px 50px 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #A9A19E; 
+}
+
+.nav-items a {
+    color: #A9A19E;
+}
+
+.nav-items .active a {
+    color: black;
+    font-weight: bold;
+}
+
+.contact-page {
+    height: 450px;
+    padding: 80px 0 0 0;
+    background-color: #A9A19E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-page h1 {
+    width: 280px;
+    padding-bottom: 35px; 
+    margin: 0;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.mail-window {
+    background-color: white;
+    border-radius: 3px;
+    width: 300px;
+    height: 15px;
+    padding: 10px;
+}
+
+.message-window {
+    background-color: white;
+    color: #000;
+    border-radius: 3px;
+    width: 300px;
+    height: 130px;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.myButton {
+    margin: 10px 0;
+    background-color: #ffffff;
+    border-radius: 29px;
+    box-shadow: 0px 2px 2px -2px black;
+    border: 1px solid white;
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 40px;
+    text-decoration: none;
+}
+
+.contact-form div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-form p {
+    margin: 15px 0 0;
+}
+
+.map {
+    background-image: url(img/map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.map article {
+    margin: 100px;
+    width: 250px;
+    height: 150px;
+    padding: 30px;
+    background-color: orange;
+}
+
+.map h1 {
+    margin: 0;
+    width: 280px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.map p {
+    line-height: 0.3em;
+}
+
+.window {
+    height: 250px;
+    background-color: #6B6B6B; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
